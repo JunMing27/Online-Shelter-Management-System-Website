@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.containerhehe {
+    display: flex;
+    flex-direction: column;
+}
+
+.portion1 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.portion1_1 {
+    background-color: rgb(255, 255, 255);
+    width: 225px;
+    height: 225px;
+    margin: 40px 40px 40px 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portion1_1 img {
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+}
+
+.portion1_2 {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 225px;
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 2;
+}
+
+
+.portion2 {
+    background-color: rgb(255, 214, 0);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.portion2_1 {
+    width: auto;
+    height: auto;
+    margin: 40px 90px 0 90px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.portion2_2 {
+    background-color: rgb(255, 214, 0);
+    width: auto;
+    height: auto;
+    margin: 30px 90px 15px 90px;
+}
+
+.portion2_2 > ul {
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+.portion3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.portion3_1 {
+    width: auto;
+    height: auto;
+    margin: 40px 90px 0 90px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.removeAct {
+    padding: 12px;
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+    margin: 0 90px 20px 90px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.removeAct:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.editbuttonn {
+    font-size: 19px;
+    display: inline-block;
+    background-color: rgb(255, 214, 0);
+    width: 80px;
+    padding: 0 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.maintitleFontFamily {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.aStyle {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.moreInfo {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+}
+
+.someMargin {
+    margin-bottom: 12px;
+}
+
+.moreInfo:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.aStyle:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.editbuttonn:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}

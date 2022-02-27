@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 249, 219);
+    align-items: center;
+}
+
+.shelterContent {
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+
+.shelterContent .shelterName {
+    font-size: 80px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.shelterContent .shelterAvailability {
+    font-size: 30px;
+    margin-left: 14px;
+}
+
+.shelterContent .shelterDes {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.shelterContent .shelterDetails {
+    font-size: 20px;
+    margin-top: 42px;
+    margin-left: 20.5px;
+    line-height: 2.1;
+}
+
+input[type=button], input[type=submit] {
+    font-size: 17px;
+    margin-top: 60px;
+
+    border: none;
+    height: 27px;
+    text-align: center;
+    background: rgb(255, 214, 0);
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.shelterContent input[type=button]:hover, input[type=submit]:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+.errormessage {
+    padding-top: 14px;
+}
+
+.unavailable {
+    width: 112px;
+}
+
+.available {
+    width: 89px;
+}
+
+.currentlivinguser {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.iframeContainer {
+    width: 80%;
+    height: auto;
+}
+
+iframe {
+    margin: 30px auto;
+    border: none;
+}
+
+.editbuttonn {
+    width: 79px;
+    height: 27px;
+    margin-right: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 214, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.editbuttonn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+.editbuttonn a:link, a:visited, a:hover, a:active {
+    color: rgb(0, 0, 0);
+  }
+
+
+.buttonContainer {
+    display: flex;
+    flex-direction: initial;
+}
+
+.astyle {
+    text-decoration: none;
+}

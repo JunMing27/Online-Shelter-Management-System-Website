@@ -1,0 +1,100 @@
+/* GUEST/USER/STAFF HEADER CSS */
+/* A flex container to store all header element */
+.header_container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header_Elderly{
+    text-align:center;
+    color:#f9db22;
+    font-weight: bold;   
+}
+
+.yellowcolor{
+    color:#f9db22;
+}
+
+.yellowbg{
+    background-color:#f9db22;
+}
+
+.header_bold{
+    text-align:center;
+    font-weight: bold;
+}
+
+
+/* Black Color Link */
+.header_gclink{
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+    text-align:center;
+}
+
+/* Black color link turn to yellow when hovered*/
+.header_gclink:hover{
+    color:#f9db22;
+    background-color: transparent;
+    text-decoration: none;
+    text-align:center;
+    font-weight: bold;
+}
+
+/* STAFF HEADER CSS DROPDOWN */
+/* Dropdown Button for Information tab */
+.infodrpbtn {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+  }
+  
+  /* To position the dropdown content */
+  .infodrpdwn {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Hide content when not hovered */
+  .infocontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    z-index: 1;
+  }
+  
+  /* Css of content inside the dropdown */
+  .infocontent a {
+    color: black;
+    padding:10px;
+    text-decoration: none;
+    display: block;
+    border:solid;
+    border-width:1px;
+  }
+  
+  /* Change the css of drop down content when hovered */
+  .infocontent a:hover {
+      background-color: #ffdd00;
+      color:black;
+      border:solid;
+      border-color:black;
+      border-width:1px;
+      font-weight: bold;
+    }
+  
+  /* Show content when hovered */
+  .infodrpdwn:hover .infocontent {
+      display: block;
+      border:solid;
+      border-width:1px;
+    }
+  
+ /* Change dropdown button color when hovered */
+  .infodrpdwn:hover .infodrpbtn {
+      color: #f9db22;
+      font-weight: bold;
+    }

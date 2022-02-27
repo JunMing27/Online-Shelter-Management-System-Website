@@ -1,0 +1,38 @@
+.forgotpw{
+    padding:7% 5% 5% 5%;
+    background-color:#f9db22;
+    color:black;
+}
+
+.forgotpw_link{
+    text-decoration: none;
+    color:black;
+    background-color: transparent;
+    border:none;
+    font-size:17px;
+}
+.forgotpw_link:hover{
+    text-decoration: none;
+    color:black;
+    opacity: 1;
+    font-weight:bold;
+}
+
+
+
+.inputbox{
+    width: 60%;
+    display: inline-block;
+    margin:1% 0 1% 0;
+    padding: 1%;
+    font-size:15px;
+    border:double;
+    border-radius:5px;
+}
+
+
+
+
+
+
+

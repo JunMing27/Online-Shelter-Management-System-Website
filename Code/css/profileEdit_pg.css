@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 60px;
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(255, 214, 0);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.editForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editForm form {
+    margin-top: 70px;
+}
+
+.editForm input[type=text], input[type=email],  input[type=date], input[type=tel], input[type=password], input[type=number], .dropdownbox {
+    height: 35px;
+    width: 420px;
+    margin: 6px 0 25px 0;
+    border: 2.5px solid rgb(94, 94, 94);
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.editForm input[placeholder], .dropdownbox {
+    padding-left: 8px;
+}
+
+.editForm input[readonly]{
+    color: rgb(133, 133, 133);
+}
+
+#emailError {
+    color: rgb(255, 59, 59);
+    display: none;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: inline-block;
+    background-color: rgb(255, 214, 0);
+    width: 92px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 20px 25px 30px;
+    text-align: center;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+.profile_PContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.profile_p {
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile_p img {
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+}

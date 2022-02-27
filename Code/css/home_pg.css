@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* #region 1st body */
+.containerhehe {
+    position: relative;
+    text-align: center;
+  }
+
+  .title {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title1 {
+    color: rgb(255, 214, 0);
+    font-size: 7vw;
+    font-weight: bold;
+  }
+
+  .title2 {
+      color: white;
+      font-size: 7vw;
+  }
+
+  .description {
+    color: white;
+    position: absolute;
+    top: 52.5%;
+    left: 17.5%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+  }
+
+  /* #endregion */
+
+/* #region 2nd body */
+.homepg_aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 254, 246);
+    width: 100%;
+    padding: 5vmax 5vmax 4vmax 5vmax;
+}
+
+.homepg_aboutUs_title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.homepg_aboutUs_title > span {
+    color: rgb(255, 214, 0);
+}
+
+.homepg_aboutUs_dscption {
+    height: auto;
+    width: 50%;
+    font-size: 30px;
+    text-align: justify;
+    align-self: center;
+    margin: 0 10px;
+    margin-bottom: 55px;
+}
+
+.homepg_aboutUs_button {
+    height: auto;
+    width: 120px;;
+    padding: 4px 15px;
+    margin: 0 0 30px 0;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    background: rgb(255, 214, 0);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.astyle {
+  text-decoration: none;
+  color: black;
+}
+
+.homepg_aboutUs_button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    color: black;
+}
+
+/* #endregion */
+
+/* #region 3rd body */
+.homepg_services {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color:rgb(255, 214, 0);
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.homepg_services_type {
+  width: 300px;
+  height: 580px;
+  margin: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.homepg_services_type > .service {
+  margin: 40px 0;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.homepg_services_type > .descrpt {
+  margin: 40px 0 60px 0;
+  font-size: 20px;
+  color: white;
+}
+
+.homepg_services_type > img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homepg_services_title {
+  width: auto;
+  padding: 16px;
+  margin: 20px 100px;
+  align-self: center;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.bodyfont{
+	font-family: "Times New Roman", Times, serif;
+}

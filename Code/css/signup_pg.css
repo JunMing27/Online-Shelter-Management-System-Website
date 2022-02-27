@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.portion1 {
+    background-color: rgba(128, 128, 128, 0);
+    display: flex;
+}
+
+.portion1_1 {
+    height: auto;
+    width: 45%;
+}
+
+.portion1_1 img {
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.portion1_2 {
+    background-color: rgb(255, 214, 0);
+    height: auto;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 122px;
+}
+
+.portion1_2 > .title {
+    color: rgb(12, 12, 12);
+    padding-top:100px;
+    padding-bottom: 32px;
+    font-size: 410%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.portion1_2 input[type=text], input[type=email], input[type=number],  input[type=date], input[type=tel], input[type=password], .dropdownbox {
+    height: 43px;
+    width: 100%;
+    margin: 6px 0 17px 0;
+    border: 2.5px solid rgb(105, 105, 105);
+    transition: 0.5s;
+    outline: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+label {
+    margin: 0 0 200px 0;
+    padding: 0 0 200px 0;
+    color: rgb(0, 0, 0);
+}
+
+
+input[type=text]:focus, input[type=email]:focus,  input[type=date]:focus, input[type=number]:focus, input[type=password]:focus, .dropdownbox:focus {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portion1_2 input[placeholder], .dropdownbox {
+    padding-left: 8px;
+}
+
+.portion1_2 .others {
+    color: white;
+    padding-bottom: 6px;
+    font-size: 100%;
+    
+}
+
+.portion1_2 > .register {
+    padding-top: 26px;
+}
+
+.portion1_2 > .back {
+    padding-bottom: 95px;
+    padding-top:4px;
+}
+
+
+#emailError {
+    color: rgb(255, 59, 59);
+    display: none;
+}
+
+input[type=submit] {
+    border: none;
+    margin-top: 15px;
+    margin-right: 13px;
+    background-color: rgb(255, 255, 255);
+    padding: 4px 13px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+@media only screen and (max-width: 950px) {
+    .portion1_1 {
+        width: 0%;
+    }
+
+    .portion1_2 {
+        width: 100%;
+    }
+  }
